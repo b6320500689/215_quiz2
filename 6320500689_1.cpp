@@ -13,7 +13,7 @@ int main ()
 				{
 					printf ("%d",i);
 					n = n/i;
-					//break;
+					break;
 				}	
 					if (i==3)
 						printf ("Not Cube Free");
