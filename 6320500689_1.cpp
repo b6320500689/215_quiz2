@@ -12,11 +12,11 @@ int main ()
 				if (n%i == 0)
 				{
 					n =n/i;
-					break;
-					
+					break;	
 				}
 			}
-		}printf ("Not Cube Free");
+		}
+		printf ("Not Cube Free");
 	}
 	return 0;
 }
