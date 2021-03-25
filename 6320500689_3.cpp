@@ -2,10 +2,10 @@
 #include <string.h>
 int main ()
 {
-	int n,m=0,t;
+	int n,m=0,t,i;
 	int nn = n;
-	scanf ("%d",&n);
-	if (n>=1 && n<=1000000)
+	//scanf ("%d",&n);
+	for (i=1; i<=1000000; i++)
 	{
 		t=n;
 		while (t!=0)
@@ -14,10 +14,8 @@ int main ()
 			m = m+t%10;
 			t = t/10;
 		}
-		}
-	if (n == m)
-	printf ("%d is a palindrome\n",n);
-	else
-	printf ("%d is not a palindrome\n",n);
+		
+	}
+	printf ("%d\n",m);
 	return 0;
 }
